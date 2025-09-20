@@ -1,3 +1,4 @@
+
 export interface PillProps {
     title: string
   }
@@ -5,7 +6,7 @@ export interface PillProps {
 
 
 
-interface ButtonProps {
+export interface ButtonProps {
     title: string;
     styles?: string; // optional, for custom Tailwind classes
     sizes: string; // e.g., 'small', 'medium', 'large'
